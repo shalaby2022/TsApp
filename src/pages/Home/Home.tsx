@@ -55,13 +55,13 @@ const Home: React.FC<Props> = () => {
 
       {!listLoading && !error && (
         <View style={{flex: 1, paddingVertical: 10}}>
-          <HomeHeader title="Trending Movies" />
+          <HomeHeader title="Movies" />
           <HomeFlatList data={movies} renderItem={renderItem} />
 
-          <HomeHeader title="Trending Tv Shows" />
+          <HomeHeader title="Tv Shows" />
           <HomeFlatList data={tv} renderItem={renderItem} />
 
-          <HomeHeader title="Trending Actors" />
+          <HomeHeader title="Actors" />
           <HomeFlatList data={persons} renderItem={renderItem} />
         </View>
       )}

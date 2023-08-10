@@ -46,7 +46,7 @@ const Trending: React.FC = () => {
 
       {!trendLoading && !trendError && (
         <View style={{paddingHorizontal: 10}}>
-          <HomeHeader title="New Coming" />
+          <HomeHeader title="Trending  &  New Coming" />
           <FlatList
             style={{alignSelf: 'center'}}
             data={trendings}
